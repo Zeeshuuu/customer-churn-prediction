@@ -70,7 +70,7 @@ Load and clean the Telco Churn dataset
 
 Handle missing values in TotalCharges
 
-Encode categorical variables with one-hot encoding
+Encode categorical variables using one-hot encoding
 
 Scale numerical features using StandardScaler
 
@@ -84,46 +84,6 @@ XGBoost
 
 Gradient Boosting
 
-Compare models using Accuracy, F1-Score, and ROC-AUC
+Compare performance using Accuracy, F1-Score, and ROC-AUC
 
-Save the best model, scaler, and feature list for deployment
-
-📈 Explainable AI with SHAP
-The dashboard integrates SHAP (SHapley Additive exPlanations) to make AI decisions transparent.
-
-Understand how each feature affects churn probability
-
-View both local (individual) and global (overall) model explanations
-
-Empower business teams to make data-driven decisions with confidence
-
-🌐 Business Impact
-This project demonstrates how telecom or subscription-based businesses can:
-
-Identify high-risk customers likely to churn
-
-Understand why they might leave
-
-Take proactive actions such as offering personalized discounts or better plans
-
-Improve customer retention and reduce business losses
-
-🧰 Tech Stack
-🐍 Python 3.12
-
-🎨 Streamlit — interactive dashboard
-
-📊 Pandas & NumPy — data processing
-
-🤖 Scikit-learn — ML model training
-
-⚡ XGBoost — gradient boosting model
-
-🔍 SHAP — model explainability
-
-📈 Matplotlib & Seaborn — data visualization
-
-📬 Contact
-Author: Zeeshan Memon
-📧 Email: memonzeeshan2002@gmail.com
-💼 GitHub: github.com/Zeeshuuu
+Save the best model and scaler for deployment
