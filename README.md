@@ -26,7 +26,7 @@ The project uses **machine learning models** trained on the **Telco Customer Chu
 
 ## 🗂 Project Structure
 
- Customer-Churn-Prediction-AI
+Customer-Churn-Prediction-AI
 │
 ├── churn_dashboard.py # Streamlit dashboard (main app)
 ├── model_training.ipynb # Model training notebook
@@ -49,14 +49,14 @@ Copy code
 pip install -r requirements.txt
 3️⃣ Run the Streamlit Dashboard
 bash
-
+Copy code
 streamlit run churn_dashboard.py
 Then open the local URL (usually http://localhost:8501/) in your browser.
 
 📊 Dataset Information
 Dataset: Telco Customer Churn (from IBM Watson Analytics)
 
-Rows: 7,000 customer records
+Rows: ~7,000 customer records
 
 Columns: Demographics, services, contracts, and billing details
 
@@ -71,7 +71,7 @@ Handle missing values in TotalCharges
 
 Encode categorical variables using one-hot encoding
 
-Scale numerical features with StandardScaler
+Scale numerical features using StandardScaler
 
 Train multiple models:
 
@@ -83,7 +83,7 @@ XGBoost
 
 Gradient Boosting
 
-Compare accuracy, F1-score, and ROC-AUC
+Compare Accuracy, F1-Score, and ROC-AUC
 
 Save the best model and scaler for deployment
 
@@ -92,7 +92,7 @@ The dashboard integrates SHAP (SHapley Additive exPlanations) to:
 
 Visualize how each feature influences churn probability
 
-Provide local (individual) and global explanations
+Provide local (individual) and global (overall) explanations
 
 Help business teams understand why a customer is likely to churn
 
@@ -103,25 +103,24 @@ Identify customers with high churn risk
 
 Understand why they might leave
 
-Take data-driven retention actions (discounts, better plans, etc.)
+Take data-driven retention actions such as offering discounts or better plans
 
 🧰 Technologies Used
-Python 3.12
+🐍 Python 3.12
 
-Streamlit — for interactive dashboard UI
+🎨 Streamlit — for interactive dashboard UI
 
-Pandas & NumPy — for data processing
+📊 Pandas & NumPy — for data processing
 
-Scikit-learn — for ML model training
+🤖 Scikit-learn — for ML model training
 
-XGBoost — for gradient boosting model
+⚡ XGBoost — for gradient boosting model
 
-SHAP — for explainability and model interpretation
+🔍 SHAP — for explainability and model interpretation
 
-Matplotlib & Seaborn — for visualizations
+📈 Matplotlib & Seaborn — for visualizations
 
 📬 Contact
 Author: Zeeshan Memon
 📧 Email: memonzeeshan2002@gmail.com
 💼 GitHub: github.com/Zeeshuuu
-
