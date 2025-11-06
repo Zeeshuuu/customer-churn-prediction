@@ -41,23 +41,23 @@ Customer-Churn-Prediction-AI
 └── README.md # Project documentation
 
 
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the Repository
-```bash
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
 git clone https://github.com/Zeeshuuu/customer-churn-prediction.git
 cd customer-churn-prediction
+
 2️⃣ Install Dependencies
-bash
-Copy code
 pip install -r requirements.txt
+
 3️⃣ Run the Streamlit Dashboard
-bash
-Copy code
 streamlit run churn_dashboard.py
-Then open the local URL (usually http://localhost:8501/) in your browser.
+
+
+Then open the local URL (usually http://localhost:8501/
+) in your browser.
 
 📊 Dataset Information
+
 Dataset: Telco Customer Churn (IBM Watson Analytics)
 Rows: ~7,000 customer records
 Columns: Demographics, services, contracts, and billing details
@@ -66,6 +66,7 @@ Target Column: Churn (Yes / No)
 This dataset enables telecom companies to identify customers at risk of leaving and take proactive actions to reduce churn.
 
 🧩 Model Training Workflow
+
 Load and clean the Telco Churn dataset
 
 Handle missing values in TotalCharges
