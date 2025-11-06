@@ -1,10 +1,10 @@
-# 💡 Customer Churn Prediction Dashboard
+#  Customer Churn Prediction Dashboard
 
 An **AI-powered interactive dashboard** built with **Streamlit** that predicts whether a telecom customer is likely to **churn (leave the service)** or **stay**.  
 This project uses multiple **machine learning models** trained on the **Telco Customer Churn dataset** and includes **explainable AI visualizations (SHAP)** to interpret model predictions in a business-friendly way.
 
 
-## ✨ Key Features
+##  Key Features
 
 ✅ Predict customer churn using **Gradient Boosting (best model)**  
 ✅ Compare performance of multiple ML models — Logistic Regression, Random Forest, XGBoost, Gradient Boosting  
@@ -14,7 +14,7 @@ This project uses multiple **machine learning models** trained on the **Telco Cu
 ✅ Extract valuable **business insights** from feature importance and customer behavior trends  
 
 
-## 🤖 Machine Learning Models & Performance
+##  Machine Learning Models & Performance
 
 | Model Name             | Accuracy | ROC-AUC | F1-Score |
 |-------------------------|----------|----------|-----------|
@@ -23,11 +23,11 @@ This project uses multiple **machine learning models** trained on the **Telco Cu
 | XGBoost                 | 0.7984   | 0.8366   | 0.5799    |
 | **Gradient Boosting (Best)** | **0.8062** | **0.8416** | **0.5907** |
 
-🏆 **Best Model:** Gradient Boosting Classifier  
-💾 **Saved as:** `best_model_gradient_boosting.pkl`
+ **Best Model:** Gradient Boosting Classifier  
+ **Saved as:** `best_model_gradient_boosting.pkl`
 
 
-## 🗂 Project Structure
+##  Project Structure
 
 Customer-Churn-Prediction-AI
 │
@@ -41,22 +41,22 @@ Customer-Churn-Prediction-AI
 └── README.md # Project documentation
 
 
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
+# Installation & Setup
+###  Clone the Repository
 git clone https://github.com/Zeeshuuu/customer-churn-prediction.git
 cd customer-churn-prediction
 
-2️⃣ Install Dependencies
+###  Install Dependencies
 pip install -r requirements.txt
 
-3️⃣ Run the Streamlit Dashboard
+###  Run the Streamlit Dashboard
 streamlit run churn_dashboard.py
 
 
 Then open the local URL (usually http://localhost:8501/
 ) in your browser.
 
-📊 Dataset Information
+# Dataset Information
 
 Dataset: Telco Customer Churn (IBM Watson Analytics)
 Rows: ~7,000 customer records
@@ -65,7 +65,7 @@ Target Column: Churn (Yes / No)
 
 This dataset enables telecom companies to identify customers at risk of leaving and take proactive actions to reduce churn.
 
-🧩 Model Training Workflow
+# Model Training Workflow
 
 Load and clean the Telco Churn dataset
 
